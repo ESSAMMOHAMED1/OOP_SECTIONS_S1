@@ -1,0 +1,1 @@
+Create a Counter class that keeps track of a count. Overload the ++ operator to increment the count by one.

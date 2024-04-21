@@ -1,0 +1,23 @@
+
+Define a class for a bank account that includes the following data members:
+
+Name of the depositor (string)
+
+Account Number (integer)
+
+Balance amount in the account (float)
+
+The class also contains the following member functions:
+
+A constructor to assign initial values
+
+Deposit function to deposit some amount. 
+It should accept the amount as parameter.
+
+
+Withdraw function to withdraw an amount after checking the balance.
+It should accept the amount as parameter.
+
+
+Display function to display name and balance.
+

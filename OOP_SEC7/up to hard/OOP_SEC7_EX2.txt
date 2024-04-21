@@ -1,0 +1,7 @@
+Write a class Player that contains attributes for the
+
+player's name (string), average (float), and team (array)
+
+Write three functions to input, change and display these attributes. 
+
+Also write a constructor that asks for input to initialize all the attributes

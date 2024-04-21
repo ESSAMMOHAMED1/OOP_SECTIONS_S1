@@ -1,0 +1,1 @@
+Define a String class that represents strings. Overload the + operator to concatenate two strings.

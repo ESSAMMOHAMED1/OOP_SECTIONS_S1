@@ -1,0 +1,6 @@
+
+Prompt: Define a C++ class named `Car` with private member variables for 
+
+`brand` (string), `model` (string), and `year` (integer). 
+
+Include public member functions to set and get the values of these variables.

@@ -1,0 +1,14 @@
+
+Write a friend function for adding the two complex numbers,
+
+using a single class
+
+
+hint : take first plus first and second plus second 
+        
+    third.first=first.first+second.first;
+    
+    third.second=first.second+second.second;
+
+
+

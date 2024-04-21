@@ -1,0 +1,6 @@
+Design an employee class for reading and displaying the employee information, the
+
+getInfo() and displayInfo() methods will be used repectively. Where getInfo() will be private method
+
+
+
