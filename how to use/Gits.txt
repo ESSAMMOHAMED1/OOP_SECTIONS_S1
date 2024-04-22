@@ -1,0 +1,19 @@
+git clone <repoLink>
+
+after clonning 
+ 
+creat your branch  by
+
+git checkout -b "branch name"
+
+make your changes 
+ 
+commit changes by 
+
+git commit -m "commit message"
+
+
+then push your branch by 
+
+git push origin branchName 
+
