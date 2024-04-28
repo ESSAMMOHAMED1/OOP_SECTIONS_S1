@@ -2,18 +2,18 @@
 #include <string>
 using namespace std;
 
-
 class Counter
 {
 
     int count;
+
 public:
-    Counter &operator++()//pre
+    Counter &operator++() // pre
     {
         ++count;
         return *this;
     }
-    Counter &operator++(int)//post
+    Counter &operator++(int) // post
     {
         count++;
         return *this;
@@ -22,17 +22,12 @@ public:
     {
 
         count = c;
-
     }
     int Get_Count()
     {
 
         return count;
-
-
     }
-
-
 };
 
 int main()
@@ -42,14 +37,13 @@ int main()
 
     c.Set_Count(0);
 
-    cout<<c.Get_Count()<<endl;
-
+    cout << c.Get_Count() << endl;
 
     ++c;
-    cout<<c.Get_Count()<<endl;
+    cout << c.Get_Count() << endl;
 
     c++;
-    cout<<c.Get_Count()<<endl;
+    cout << c.Get_Count() << endl;
 
     return 0;
 }
