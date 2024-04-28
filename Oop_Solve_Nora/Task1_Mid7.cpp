@@ -3,13 +3,15 @@
 
 using namespace std;
 
-class Employee {
+class Employee
+{
 private:
   string name;
   int id;
   int age;
 
-  void getInfo() {
+  void getInfo()
+  {
     cout << "Enter employee name: ";
     cin >> name;
 
@@ -21,16 +23,21 @@ private:
   }
 
 public:
- Employee() : getInfo() {}
+  Employee()
+  {
+    getInfo();
+  }
 
-  void displayInfo() {
+  void displayInfo()
+  {
     cout << "Name: " << name << endl;
     cout << "ID: " << id << endl;
     cout << "age: " << age << endl;
   }
 };
 
-int main() {
+int main()
+{
   Employee emp;
   emp.displayInfo();
 
