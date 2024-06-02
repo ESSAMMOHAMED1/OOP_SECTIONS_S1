@@ -1,16 +1,10 @@
 #include <iostream>
 using namespace std;
-
-
-
 // functional template
 //  template <typename T> ----> define templat
 //  Typename of template + regular function define (typename of temblat + argument ) {
 //  your code here ;
 // }
-
-
-
 
 template <class T, class U>
 class A
